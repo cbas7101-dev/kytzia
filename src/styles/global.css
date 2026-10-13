@@ -1,0 +1,138 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #faf7f2;
+  --color-sand: #f1e9dc;
+  --color-gold: #a67c00;
+  --color-tierra: #c69c6d;
+  --color-tierra-deep: #a88157;
+  --color-bark: #3b2d20;
+  --color-ink: #1c1917;
+  --font-sans: "Switzer", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 1.0625rem;
+  line-height: 1.55;
+  letter-spacing: -0.005em;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--color-tierra);
+  color: #fff;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-gold);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* ——— One motif: the arch ——— */
+.arch {
+  border-radius: 999px 999px 0 0;
+}
+.arch-full {
+  border-radius: 999px;
+}
+
+/* Type steps from the direction sheet */
+.step-head {
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  line-height: 0.95;
+}
+.step-lead {
+  font-size: clamp(1.25rem, 1.1rem + 0.7vw, 1.625rem);
+  line-height: 1.4;
+}
+.step-body {
+  font-size: clamp(1.0625rem, 1rem + 0.25vw, 1.1875rem);
+  line-height: 1.55;
+}
+
+/* Primary action: one shape (pill), flat tierra */
+.btn-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: var(--color-bark);
+  color: #fff;
+  border-radius: 999px;
+  padding: 1rem 2.1rem;
+  font-weight: 600;
+  font-size: 1.0625rem;
+  transition: background 0.25s ease, transform 0.15s ease;
+}
+.btn-pill:hover {
+  background: var(--color-ink);
+}
+.btn-light {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: var(--color-sand);
+  color: var(--color-bark);
+  border-radius: 999px;
+  padding: 1rem 2.1rem;
+  font-weight: 600;
+  font-size: 1.0625rem;
+  transition: background 0.25s ease, transform 0.15s ease;
+}
+.btn-light:hover {
+  background: #fff;
+}
+.btn-pill:active {
+  transform: scale(0.97);
+}
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: var(--color-bark);
+  color: var(--color-cream);
+  border-radius: 999px;
+  padding: 1rem 2.1rem;
+  font-weight: 600;
+  font-size: 1.0625rem;
+  transition: background 0.25s ease, transform 0.15s ease;
+}
+.btn-ghost:hover {
+  background: var(--color-ink);
+}
+.btn-ghost:active {
+  transform: scale(0.97);
+}
+
+/* Section rhythm: gap between sections >> gap inside */
+.section-gap {
+  padding-top: clamp(5rem, 8vw, 9rem);
+  padding-bottom: clamp(5rem, 8vw, 9rem);
+}
+.page-margin {
+  padding-left: clamp(1rem, 4vw, 3.5rem);
+  padding-right: clamp(1rem, 4vw, 3.5rem);
+}
+
+/* Motion helpers (transform + opacity only) */
+[data-reveal] {
+  will-change: transform, opacity;
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  [data-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}

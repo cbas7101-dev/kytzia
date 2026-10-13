@@ -1,0 +1,1798 @@
+{
+ "url": "http://localhost:4332/",
+ "at": "2026-10-13T18:30:56.697Z",
+ "allow": [
+  "palette-cream"
+ ],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 9,
+   "filled": [
+    0.26,
+    0.74,
+    0.56,
+    0.78,
+    0.58,
+    0.22,
+    0.57,
+    0.69,
+    0.73
+   ],
+   "motion": {
+    "elements": 37,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 37,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 7765,
+     "screens": 8.6,
+     "words": 435,
+     "img": 10,
+     "video": 0,
+     "canvas": 0,
+     "svg": 13,
+     "sections": 10,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 2,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 0,
+     "uiPictures": 2,
+     "pictureSamples": [
+      "649838166_1485833466886389_7105780186883274438_n",
+      "649958504_1485833520219717_6091983687965498816_n",
+      "735981511_1590682559734812_6632777824874494802_n",
+      "778957736_1634967511972983_7859768347641626915_n",
+      "650207287_1485833646886371_8925002874463895996_n"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "Tu mejor versión",
+     "words": 3,
+     "chars": 16,
+     "lines": 2,
+     "size": 79.2,
+     "vw": 5.5,
+     "font": "Switzer",
+     "weight": 600,
+     "tracking": -0.04,
+     "leading": 0.95,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.43,
+     "top": 277,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Tu mejor versión",
+     "words": 3,
+     "lines": 2,
+     "size": 79.2,
+     "font": "Switzer"
+    },
+    "headings": [
+     {
+      "text": "Tu mejor versión",
+      "words": 3,
+      "chars": 16,
+      "lines": 2,
+      "size": 79.2,
+      "vw": 5.5,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 277,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Cuidarte es tu mejor inversión: una pausa de luz cálida, madera y calma en el norte de Quito.",
+      "words": 18,
+      "chars": 93,
+      "lines": 2,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Switzer",
+      "weight": 500,
+      "tracking": -0.002,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.74,
+      "top": 1015,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Belleza y bienestar",
+      "words": 3,
+      "chars": 19,
+      "lines": 2,
+      "size": 63.4,
+      "vw": 4.4,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.3,
+      "top": 1340,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Tratamientos",
+      "words": 1,
+      "chars": 12,
+      "lines": 1,
+      "size": 41.8,
+      "vw": 2.9,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.43,
+      "top": 2236,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Reserva tu pausa",
+      "words": 3,
+      "chars": 16,
+      "lines": 2,
+      "size": 57.6,
+      "vw": 4,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.28,
+      "top": 2921,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Kytzia en datos",
+      "words": 3,
+      "chars": 15,
+      "lines": 1,
+      "size": 28.8,
+      "vw": 2,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.14,
+      "top": 4184,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "“Cada tratamiento piensa en tu bienestar integral.”",
+      "words": 7,
+      "chars": 51,
+      "lines": 2,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Switzer",
+      "weight": 500,
+      "tracking": -0.01,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.37,
+      "top": 4541,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Preguntas que nos hacen",
+      "words": 4,
+      "chars": 23,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.6,
+      "top": 5217,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Agenda",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 237.6,
+      "vw": 16.5,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 0.85,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 6375,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Visítanos en Quito",
+      "words": 3,
+      "chars": 18,
+      "lines": 2,
+      "size": 43.2,
+      "vw": 3,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.17,
+      "top": 6820,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "K Y T Z I A",
+      "words": 6,
+      "chars": 11,
+      "lines": 1,
+      "size": 72,
+      "vw": 5,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 7432,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 11,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 3,
+     "centered": 2,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Switzer",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      16,
+      17,
+      19,
+      20,
+      22,
+      25,
+      26,
+      29,
+      36,
+      42,
+      43,
+      56,
+      58,
+      63,
+      72,
+      79,
+      238
+     ],
+     "sizeCount": 17,
+     "notLoaded": [],
+     "body": {
+      "font": "Switzer",
+      "size": 17,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": -0.005,
+      "contrast": 12.4
+     },
+     "measureChars": 65,
+     "max": {
+      "size": 237.6,
+      "vw": 16.5,
+      "font": "Switzer",
+      "text": "Agenda"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#faf7f2",
+     "bodyBgHsl": {
+      "h": 38,
+      "s": 0.44,
+      "l": 0.96
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#faf7f2",
+       "top": 0,
+       "hsl": {
+        "h": 38,
+        "s": 0.44,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#c69c6d",
+       "top": -112,
+       "hsl": {
+        "h": 32,
+        "s": 0.44,
+        "l": 0.6
+       }
+      },
+      {
+       "color": "#3b2d20",
+       "top": 1228,
+       "hsl": {
+        "h": 29,
+        "s": 0.3,
+        "l": 0.18
+       }
+      },
+      {
+       "color": "#f1e9dc",
+       "top": 2805,
+       "hsl": {
+        "h": 37,
+        "s": 0.43,
+        "l": 0.9
+       }
+      },
+      {
+       "color": "#1c1917",
+       "top": 7352,
+       "hsl": {
+        "h": 24,
+        "s": 0.1,
+        "l": 0.1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#1c1917",
+       "share": 0.33
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.24
+      },
+      {
+       "color": "#57534d",
+       "share": 0.17
+      },
+      {
+       "color": "#faf7f2",
+       "share": 0.1
+      },
+      {
+       "color": "#f9f7f2",
+       "share": 0.08
+      }
+     ],
+     "button": {
+      "bg": "#3b2d20",
+      "hsl": {
+       "h": 29,
+       "s": 0.3,
+       "l": 0.18
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 7,
+     "inHero": 3,
+     "radius": "pill",
+     "height": 58,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Agendar cita",
+      "Agenda tu cita",
+      "Ver tratamientos"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 26,
+     "boxRadius": 20,
+     "squareMedia": 0,
+     "roundedMedia": 8,
+     "mediaRadius": 999,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 3565
+      },
+      {
+       "count": 5,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 4160
+      },
+      {
+       "count": 5,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 5318
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.19
+     }
+    ],
+    "nav": {
+     "links": 5,
+     "fixed": false,
+     "height": 98,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "switzer"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.25,
+    0.74,
+    0.69,
+    0.73,
+    0.33,
+    0.83,
+    0.76,
+    0.82
+   ],
+   "motion": {
+    "elements": 37,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 37,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 7436,
+     "screens": 7.3,
+     "words": 435,
+     "img": 10,
+     "video": 0,
+     "canvas": 0,
+     "svg": 13,
+     "sections": 10,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 2,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 1,
+     "pictureSamples": [
+      "649838166_1485833466886389_7105780186883274438_n",
+      "649958504_1485833520219717_6091983687965498816_n",
+      "735981511_1590682559734812_6632777824874494802_n",
+      "778957736_1634967511972983_7859768347641626915_n"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "Tu mejor versión",
+     "words": 3,
+     "chars": 16,
+     "lines": 2,
+     "size": 42.2,
+     "vw": 5.5,
+     "font": "Switzer",
+     "weight": 600,
+     "tracking": -0.04,
+     "leading": 0.95,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.43,
+     "top": 298,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Tu mejor versión",
+     "words": 3,
+     "lines": 2,
+     "size": 42.2,
+     "font": "Switzer"
+    },
+    "headings": [
+     {
+      "text": "Tu mejor versión",
+      "words": 3,
+      "chars": 16,
+      "lines": 2,
+      "size": 42.2,
+      "vw": 5.5,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 298,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Cuidarte es tu mejor inversión: una pausa de luz cálida, madera y calma en el norte de Quito.",
+      "words": 18,
+      "chars": 93,
+      "lines": 2,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Switzer",
+      "weight": 500,
+      "tracking": -0.003,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 1104,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Belleza y bienestar",
+      "words": 3,
+      "chars": 19,
+      "lines": 2,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.36,
+      "top": 1382,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Tratamientos",
+      "words": 1,
+      "chars": 12,
+      "lines": 1,
+      "size": 35.2,
+      "vw": 4.6,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.42,
+      "top": 2173,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Reserva tu pausa",
+      "words": 3,
+      "chars": 16,
+      "lines": 2,
+      "size": 35.2,
+      "vw": 4.6,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.28,
+      "top": 2835,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Preguntas que nos hacen",
+      "words": 4,
+      "chars": 23,
+      "lines": 1,
+      "size": 35.2,
+      "vw": 4.6,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 4893,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Agenda",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 126.7,
+      "vw": 16.5,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 0.85,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.87,
+      "top": 6168,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Visítanos en Quito",
+      "words": 3,
+      "chars": 18,
+      "lines": 2,
+      "size": 30.4,
+      "vw": 4,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.23,
+      "top": 6483,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "K Y T Z I A",
+      "words": 6,
+      "chars": 11,
+      "lines": 1,
+      "size": 46.1,
+      "vw": 6,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 7060,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 2,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Switzer",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      22,
+      23,
+      24,
+      30,
+      32,
+      35,
+      40,
+      42,
+      46,
+      127
+     ],
+     "sizeCount": 15,
+     "notLoaded": [],
+     "body": {
+      "font": "Switzer",
+      "size": 17,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": -0.005,
+      "contrast": 12.4
+     },
+     "measureChars": 65,
+     "max": {
+      "size": 126.7,
+      "vw": 16.5,
+      "font": "Switzer",
+      "text": "Agenda"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#faf7f2",
+     "bodyBgHsl": {
+      "h": 38,
+      "s": 0.44,
+      "l": 0.96
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#faf7f2",
+       "top": 0,
+       "hsl": {
+        "h": 38,
+        "s": 0.44,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#c69c6d",
+       "top": -128,
+       "hsl": {
+        "h": 32,
+        "s": 0.44,
+        "l": 0.6
+       }
+      },
+      {
+       "color": "#3b2d20",
+       "top": 1270,
+       "hsl": {
+        "h": 29,
+        "s": 0.3,
+        "l": 0.18
+       }
+      },
+      {
+       "color": "#f1e9dc",
+       "top": 2755,
+       "hsl": {
+        "h": 37,
+        "s": 0.43,
+        "l": 0.9
+       }
+      },
+      {
+       "color": "#1c1917",
+       "top": 6980,
+       "hsl": {
+        "h": 24,
+        "s": 0.1,
+        "l": 0.1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#1c1917",
+       "share": 0.33
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.24
+      },
+      {
+       "color": "#57534d",
+       "share": 0.17
+      },
+      {
+       "color": "#faf7f2",
+       "share": 0.1
+      },
+      {
+       "color": "#f9f7f2",
+       "share": 0.08
+      }
+     ],
+     "button": {
+      "bg": "#3b2d20",
+      "hsl": {
+       "h": 29,
+       "s": 0.3,
+       "l": 0.18
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 7,
+     "inHero": 3,
+     "radius": "pill",
+     "height": 58,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Agendar cita",
+      "Agenda tu cita",
+      "Ver tratamientos"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 19,
+     "boxRadius": 20,
+     "squareMedia": 0,
+     "roundedMedia": 4,
+     "mediaRadius": 999,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 3362
+      },
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 3944
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.09
+     }
+    ],
+    "nav": {
+     "links": 5,
+     "fixed": false,
+     "height": 98,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "switzer"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.42,
+    0.63,
+    0.92,
+    0.44,
+    0.67,
+    0.79,
+    0.65,
+    0.44,
+    0.48,
+    0.76,
+    0.66,
+    0.91
+   ],
+   "motion": {
+    "elements": 37,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 37,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 10014,
+     "screens": 11.9,
+     "words": 432,
+     "img": 10,
+     "video": 0,
+     "canvas": 0,
+     "svg": 13,
+     "sections": 10,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 2,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 0,
+     "uiPictures": 2,
+     "pictureSamples": [
+      "649838166_1485833466886389_7105780186883274438_n",
+      "649958504_1485833520219717_6091983687965498816_n",
+      "735981511_1590682559734812_6632777824874494802_n",
+      "778957736_1634967511972983_7859768347641626915_n",
+      "650207287_1485833646886371_8925002874463895996_n"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "Tu mejor versión",
+     "words": 3,
+     "chars": 16,
+     "lines": 2,
+     "size": 41.6,
+     "vw": 10.7,
+     "font": "Switzer",
+     "weight": 600,
+     "tracking": -0.04,
+     "leading": 0.95,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.86,
+     "top": 128,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Tu mejor versión",
+     "words": 3,
+     "lines": 2,
+     "size": 41.6,
+     "font": "Switzer"
+    },
+    "headings": [
+     {
+      "text": "Kytzia Esthetic & Spa",
+      "words": 4,
+      "chars": 21,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.5,
+      "top": 32,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Tu mejor versión",
+      "words": 3,
+      "chars": 16,
+      "lines": 2,
+      "size": 41.6,
+      "vw": 10.7,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.86,
+      "top": 128,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Cuidarte es tu mejor inversión: una pausa de luz cálida, madera y calma en el norte de Quito.",
+      "words": 18,
+      "chars": 93,
+      "lines": 4,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Switzer",
+      "weight": 500,
+      "tracking": -0.004,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1209,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Belleza y bienestar",
+      "words": 3,
+      "chars": 19,
+      "lines": 2,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.71,
+      "top": 1498,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Quince años de oficio",
+      "words": 4,
+      "chars": 21,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.004,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 2021,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Trato cálido y personalizado",
+      "words": 4,
+      "chars": 28,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.004,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 2237,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Tratamientos",
+      "words": 1,
+      "chars": 12,
+      "lines": 1,
+      "size": 35.2,
+      "vw": 9,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2644,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Reserva tu pausa",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 35.2,
+      "vw": 9,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3674,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Kytzia en datos",
+      "words": 3,
+      "chars": 15,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 5546,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Más de 15 años",
+      "words": 4,
+      "chars": 14,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 5627,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "HIFU sin cirugía",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 5740,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Quito norte",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 5853,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Bienestar integral",
+      "words": 2,
+      "chars": 18,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 5966,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "“Cada tratamiento piensa en tu bienestar integral.”",
+      "words": 7,
+      "chars": 51,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Switzer",
+      "weight": 500,
+      "tracking": -0.01,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 6583,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Preguntas que nos hacen",
+      "words": 4,
+      "chars": 23,
+      "lines": 2,
+      "size": 35.2,
+      "vw": 9,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 7083,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Agenda",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 64.4,
+      "vw": 16.5,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 0.85,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.87,
+      "top": 8356,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Visítanos en Quito",
+      "words": 3,
+      "chars": 18,
+      "lines": 2,
+      "size": 30.4,
+      "vw": 7.8,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 8578,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "K Y T Z I A",
+      "words": 6,
+      "chars": 11,
+      "lines": 1,
+      "size": 28.8,
+      "vw": 7.4,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 9501,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 18,
+     "maxLines": 4,
+     "over2Lines": 0,
+     "statements": 9,
+     "centered": 3,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Switzer",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      16,
+      17,
+      19,
+      20,
+      22,
+      24,
+      29,
+      30,
+      35,
+      40,
+      42,
+      64
+     ],
+     "sizeCount": 12,
+     "notLoaded": [],
+     "body": {
+      "font": "Switzer",
+      "size": 17,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": -0.005,
+      "contrast": 12.4
+     },
+     "measureChars": 41,
+     "max": {
+      "size": 64.4,
+      "vw": 16.5,
+      "font": "Switzer",
+      "text": "Agenda"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.05,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#faf7f2",
+     "bodyBgHsl": {
+      "h": 38,
+      "s": 0.44,
+      "l": 0.96
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#faf7f2",
+       "top": 0,
+       "hsl": {
+        "h": 38,
+        "s": 0.44,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#c69c6d",
+       "top": 490,
+       "hsl": {
+        "h": 32,
+        "s": 0.44,
+        "l": 0.6
+       }
+      },
+      {
+       "color": "#3b2d20",
+       "top": 1418,
+       "hsl": {
+        "h": 29,
+        "s": 0.3,
+        "l": 0.18
+       }
+      },
+      {
+       "color": "#f1e9dc",
+       "top": 3594,
+       "hsl": {
+        "h": 37,
+        "s": 0.43,
+        "l": 0.9
+       }
+      },
+      {
+       "color": "#1c1917",
+       "top": 9421,
+       "hsl": {
+        "h": 24,
+        "s": 0.1,
+        "l": 0.1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#1c1917",
+       "share": 0.32
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.24
+      },
+      {
+       "color": "#57534d",
+       "share": 0.17
+      },
+      {
+       "color": "#faf7f2",
+       "share": 0.1
+      },
+      {
+       "color": "#f9f7f2",
+       "share": 0.08
+      }
+     ],
+     "button": {
+      "bg": "#3b2d20",
+      "hsl": {
+       "h": 29,
+       "s": 0.3,
+       "l": 0.18
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 7,
+     "inHero": 3,
+     "radius": "pill",
+     "height": 58,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Agendar cita",
+      "Agenda tu cita",
+      "Ver tratamientos"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 19,
+     "boxRadius": 20,
+     "squareMedia": 0,
+     "roundedMedia": 7,
+     "mediaRadius": 999,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 4415
+      },
+      {
+       "count": 5,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 7198
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.19
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": false,
+     "height": 98,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "switzer"
+    ]
+   },
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "card-rows",
+   "width": 1440,
+   "message": "3 rows of identical boxed cards.",
+   "fix": "Vary the composition; not every section is a card grid.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "17 different font sizes (16, 17, 19, 20, 22, 25, 26, 29, 36, 42, 43, 56, 58, 63, 72, 79, 238).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\Gamer\\Desktop\\Documentos\\Rutiso\\Demos gratis\\kytzia-web\\kytzia-web\\.taste-skill\\inspect\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\Gamer\\Desktop\\Documentos\\Rutiso\\Demos gratis\\kytzia-web\\kytzia-web\\.taste-skill\\inspect\\desktop-page-01.jpg",
+    "C:\\Users\\Gamer\\Desktop\\Documentos\\Rutiso\\Demos gratis\\kytzia-web\\kytzia-web\\.taste-skill\\inspect\\desktop-page-02.jpg",
+    "C:\\Users\\Gamer\\Desktop\\Documentos\\Rutiso\\Demos gratis\\kytzia-web\\kytzia-web\\.taste-skill\\inspect\\desktop-page-03.jpg"
+   ]
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\Gamer\\Desktop\\Documentos\\Rutiso\\Demos gratis\\kytzia-web\\kytzia-web\\.taste-skill\\inspect\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\Gamer\\Desktop\\Documentos\\Rutiso\\Demos gratis\\kytzia-web\\kytzia-web\\.taste-skill\\inspect\\tablet-page-01.jpg",
+    "C:\\Users\\Gamer\\Desktop\\Documentos\\Rutiso\\Demos gratis\\kytzia-web\\kytzia-web\\.taste-skill\\inspect\\tablet-page-02.jpg"
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\Gamer\\Desktop\\Documentos\\Rutiso\\Demos gratis\\kytzia-web\\kytzia-web\\.taste-skill\\inspect\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\Gamer\\Desktop\\Documentos\\Rutiso\\Demos gratis\\kytzia-web\\kytzia-web\\.taste-skill\\inspect\\mobile-page-01.jpg",
+    "C:\\Users\\Gamer\\Desktop\\Documentos\\Rutiso\\Demos gratis\\kytzia-web\\kytzia-web\\.taste-skill\\inspect\\mobile-page-02.jpg"
+   ]
+  }
+ ]
+}
