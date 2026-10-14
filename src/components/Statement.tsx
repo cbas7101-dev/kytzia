@@ -1,30 +1,18 @@
 export default function Statement() {
   return (
-    <section id="pausa" className="section-gap bg-[#FAF7F2]">
-      <div className="mx-auto max-w-[1100px] px-5 text-center md:text-left">
+    <section id="pausa" className="bg-[#FAF7F2] pb-4 pt-[clamp(3rem,6vw,5rem)]">
+      <div className="mx-auto max-w-[1100px] px-5">
         <p
           data-reveal
-          className="mx-auto max-w-[34ch] text-[24px] font-medium leading-[1.35] text-stone-900 md:mx-0 md:max-w-[52ch] md:text-[32px] lg:text-[36px]"
+          className="max-w-[52ch] text-[clamp(1.5rem,2.6vw,2.4rem)] font-medium leading-[1.25] tracking-[-0.02em] text-stone-900"
         >
           Cuidarte es tu mejor{" "}
-          <img
-            src="/649958504_1485833520219717_6091983687965498816_n.jpg"
-            alt="Detalle del espejo orgánico con luz cálida"
-            className="arch mx-[0.12em] inline-block h-[1em] w-[1.6em] object-cover align-[-0.1em]"
-            width={240}
-            height={150}
-            loading="lazy"
-          />{" "}
-          inversión: una pausa de luz cálida,{" "}
-          <img
-            src="/650255033_1485833390219730_8330625070390554603_n.jpg"
-            alt="Mostrador de recepción con el logo iluminado de Kytzia"
-            className="arch mx-[0.12em] inline-block h-[1em] w-[1.1em] object-cover align-[-0.1em]"
-            width={200}
-            height={180}
-            loading="lazy"
-          />{" "}
-          madera y calma en el norte de Quito.
+          <span className="rounded-full bg-[#F1E9DC] px-3 py-1 text-[#3B2D20]">inversión</span>:
+          una pausa de luz cálida, madera y calma{" "}
+          <span className="underline decoration-[#C69C6D] decoration-[3px] underline-offset-8">
+            en el norte de Quito
+          </span>
+          .
         </p>
       </div>
     </section>

@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { ArrowLeft, ArrowRight, Check, MessageCircle } from "lucide-react";
+import { ArrowLeft, ArrowRight, Check, Leaf, MessageCircle, Smile, Sparkles } from "lucide-react";
 import {
   especialistas,
   fechaCorta,
@@ -11,39 +11,32 @@ import {
 
 const etapas = ["Servicio", "Especialista", "Fecha y hora", "Tus datos", "Confirmación"];
 
+const etapaIconos = [Sparkles, Smile, Check, MessageCircle, Leaf];
+
 function PuntosMotivo() {
   const puntos = useMemo(() => {
-    const lista: { x: number; y: number; color: string; r: number }[] = [];
-    for (let i = 0; i < 150; i++) {
-      const t = i / 150;
-      const zona = t < 0.33 ? 0 : t < 0.6 ? 1 : 2;
-      let x = 0;
-      let y = 0;
-      if (zona === 0) {
-        x = t * 300 + (Math.sin(i * 12.9) * 0.5 + 0.5) * 90;
-        y = 50 + (Math.cos(i * 7.7) * 0.5 + 0.5) * 90;
-      } else if (zona === 1) {
-        x = 330 + (t - 0.33) * 300;
-        y = 82 + Math.sin(i) * 7;
-      } else {
-        const k = (t - 0.6) / 0.4;
-        x = 430 + k * 340;
-        y = 30 + (i % 5) * 28;
-      }
-      const color = zona === 2 ? "#C69C6D" : zona === 1 ? "#A67C00" : "#E4D5BE";
-      lista.push({ x: (x / 800) * 100, y: (y / 170) * 100, color, r: zona === 1 ? 1.1 : 0.9 });
+    const lista: { x: number; y: number; color: string }[] = [];
+    for (let i = 0; i < 56; i++) {
+      const fila = Math.floor(i / 14);
+      const col = i % 14;
+      lista.push({
+        x: 4 + col * 7,
+        y: 12 + fila * 25 + (col % 2 === 0 ? 6 : 0),
+        color: fila < 2 ? "#C69C6D" : "#E4D5BE",
+      });
     }
     return lista;
   }, []);
   return (
     <svg
-      viewBox="0 0 800 170"
+      viewBox="0 0 100 100"
       role="img"
-      aria-label="Diagrama: muchas opciones se ordenan en tu reserva"
-      className="h-auto w-full"
+      aria-label="Tu reserva paso a paso"
+      className="mx-auto h-[64px] w-full max-w-[520px]"
+      preserveAspectRatio="xMidYMid meet"
     >
       {puntos.map((p, i) => (
-        <circle key={i} cx={`${p.x}%`} cy={`${p.y}%`} r={p.r * 4} fill={p.color} />
+        <circle key={i} cx={p.x} cy={p.y} r={2.4} fill={p.color} />
       ))}
     </svg>
   );
@@ -63,10 +56,6 @@ export default function Booking() {
   const dias = useMemo(() => proximosDias(10), []);
   const servicio = servicios.find((s) => s.id === servicioId) ?? null;
   const especialista = especialistas.find((e) => e.id === especialistaId) ?? null;
-  const disponibles = especialista
-    ? especialistas.filter((e) => e.id === especialista.id)
-    : especialistas;
-  void disponibles;
 
   const expertosFiltrados = servicio
     ? especialistas.filter((e) => e.areas.includes(servicio.id))
@@ -88,64 +77,77 @@ export default function Booking() {
   return (
     <section id="reserva" className="section-gap bg-[#F1E9DC]">
       <div className="page-margin mx-auto max-w-[1400px]">
-        <div className="grid gap-8 md:grid-cols-12">
-          <h2 data-reveal className="step-head text-[clamp(2.2rem,4vw,3.75rem)] text-stone-900 md:col-span-4">
+        <div className="grid gap-6 md:grid-cols-12 md:items-end">
+          <h2 data-reveal className="step-head text-[clamp(2.2rem,4vw,3.75rem)] text-stone-900 md:col-span-5">
             Reserva tu pausa
           </h2>
-          <p data-reveal className="step-body max-w-[46ch] text-stone-900 md:col-span-8 md:pt-3">
+          <p data-reveal className="step-body max-w-[46ch] text-stone-900 md:col-span-7">
             Cinco momentos y listo: eliges el tratamiento, a tu especialista, el día y la hora, nos
             dejas tus datos y confirmas por WhatsApp.
           </p>
         </div>
 
-        <div data-reveal className="mt-10">
+        <div data-reveal className="mt-6">
           <PuntosMotivo />
         </div>
 
-        <ol className="mt-6 grid gap-4 md:grid-cols-5" aria-label="Etapas de la reserva">
-          {etapas.map((nombreEtapa, i) => (
-            <li
-              key={nombreEtapa}
-              aria-current={i === paso ? "step" : undefined}
-              className={`rounded-[20px] px-5 py-4 text-[16px] font-semibold ${
-                i === paso || i < paso || (i === 4 && confirmada)
-                  ? "bg-[#3B2D20] text-white"
-                  : "bg-[#FAF7F2] text-stone-600"
-              }`}
-            >
-              <span className="flex items-center gap-2">
-                {(i < paso || (i === 4 && confirmada)) && <Check size={18} />}
+        <ol className="mt-4 grid gap-2 sm:grid-cols-3 md:grid-cols-5" aria-label="Etapas de la reserva">
+          {etapas.map((nombreEtapa, i) => {
+            const EtapaIcon = etapaIconos[i] ?? Check;
+            return (
+              <li
+                key={nombreEtapa}
+                aria-current={i === paso ? "step" : undefined}
+                className={`flex items-center gap-2 rounded-[16px] px-4 py-3 text-[15px] font-semibold ${
+                  i === paso || i < paso || (i === 4 && confirmada)
+                    ? "bg-[#3B2D20] text-white"
+                    : "bg-[#FAF7F2] text-stone-500"
+                }`}
+              >
+                <EtapaIcon size={16} />
                 {nombreEtapa}
-              </span>
-            </li>
-          ))}
+              </li>
+            );
+          })}
         </ol>
 
-        <div className="mt-8 rounded-[28px] bg-[#FAF7F2] p-6 md:p-12" data-ui>
+        <div className="mt-6 rounded-[28px] bg-[#FAF7F2] p-6 md:p-10" data-ui>
           {paso === 0 && (
             <div>
               <p className="step-lead font-semibold text-stone-900">¿Qué te gustaría agendar?</p>
-              <div className="mt-6 grid gap-4 md:grid-cols-3">
-                {servicios.map((s) => (
-                  <button
-                    key={s.id}
-                    type="button"
-                    onClick={() => {
-                      setServicioId(s.id);
-                      setEspecialistaId(null);
-                    }}
-                    aria-pressed={servicioId === s.id}
-                    className={`overflow-hidden rounded-[20px] bg-white text-left transition-transform ${
-                      servicioId === s.id ? "outline outline-4 outline-[#C69C6D]" : ""
-                    }`}
-                  >
-                    <img src={s.imagen} alt={s.alt} className="aspect-[16/10] w-full object-cover" loading="lazy" />
-                    <span className="block p-5">
-                      <span className="block text-[20px] font-semibold text-stone-900">{s.nombre}</span>
-                      <span className="mt-1 block text-[16px] text-stone-600">{s.duracion}</span>
-                    </span>
-                  </button>
-                ))}
+              <div className="mt-6 grid gap-3 md:grid-cols-3">
+                {servicios.map((s) => {
+                  const activo = servicioId === s.id;
+                  const SIcon = s.id === "hifu" ? Sparkles : s.id === "faciales" ? Smile : Leaf;
+                  return (
+                    <button
+                      key={s.id}
+                      type="button"
+                      onClick={() => {
+                        setServicioId(s.id);
+                        setEspecialistaId(null);
+                      }}
+                      aria-pressed={activo}
+                      className={`rounded-[20px] border-2 p-5 text-left transition-colors ${
+                        activo
+                          ? "border-[#A67C00] bg-[#3B2D20] text-white"
+                          : "border-transparent bg-white text-stone-900 hover:border-[#E4D5BE]"
+                      }`}
+                    >
+                      <span
+                        className={`arch-full flex h-11 w-11 items-center justify-center ${
+                          activo ? "bg-[#C69C6D] text-[#3B2D20]" : "bg-[#F1E9DC] text-[#3B2D20]"
+                        }`}
+                      >
+                        <SIcon size={20} />
+                      </span>
+                      <span className="mt-3 block text-[19px] font-semibold leading-tight">{s.nombre}</span>
+                      <span className={`mt-1 block text-[15px] ${activo ? "text-white/80" : "text-stone-500"}`}>
+                        {s.duracion} · {s.beneficio}
+                      </span>
+                    </button>
+                  );
+                })}
               </div>
             </div>
           )}
@@ -300,7 +302,7 @@ export default function Booking() {
                   target="_blank"
                   rel="noreferrer"
                   onClick={() => setConfirmada(true)}
-                  className="btn-pill mt-6"
+                  className="btn-cta mt-6"
                 >
                   <MessageCircle size={20} />
                   Confirmar por WhatsApp
@@ -327,7 +329,7 @@ export default function Booking() {
                   type="button"
                   disabled={!puedeAvanzar()}
                   onClick={() => puedeAvanzar() && setPaso(paso + 1)}
-                  className="btn-pill disabled:cursor-not-allowed disabled:opacity-40"
+                  className="btn-cta disabled:cursor-not-allowed disabled:opacity-40 disabled:shadow-none"
                 >
                   Continuar
                   <ArrowRight size={20} />

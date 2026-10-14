@@ -37,13 +37,16 @@ export default function Hero() {
         </div>
 
         <div className="relative md:col-span-6">
-          <div data-shutter className="arch mx-auto w-[78vw] max-w-[380px] overflow-hidden md:ml-auto md:mr-0 md:w-[30vw] md:max-w-[440px]">
+          <div
+            data-shutter
+            className="arch-full mx-auto flex aspect-square w-[78vw] max-w-[380px] items-center justify-center overflow-hidden bg-white p-8 shadow-[0_24px_60px_-24px_rgba(59,45,32,0.45)] md:ml-auto md:mr-0 md:w-[30vw] md:max-w-[440px] md:p-10"
+          >
             <img
-              src="/649838166_1485833466886389_7105780186883274438_n.jpg"
-              alt="Recepción de Kytzia Esthetic y Spa: espejo orgánico retroiluminado, madera y plantas"
-              className="aspect-[3/4] w-full object-cover"
-              width={1040}
-              height={1387}
+              src="/logo.jpg"
+              alt="Logo de Kytzia Esthetic y Spa"
+              className="h-full w-full object-contain"
+              width={880}
+              height={880}
               fetchPriority="high"
             />
           </div>
